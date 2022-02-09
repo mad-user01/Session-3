@@ -204,20 +204,12 @@
                     android:layout_marginBottom="10dp"
                     app:srcCompat="@drawable/the_sound" />
 
-                <ImageView
-                    android:id="@+id/imageView29"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|center"
-                    android:layout_marginBottom="13dp"
-                    app:srcCompat="@drawable/the_line_time" />
-
                 <TextView
                     android:id="@+id/textView29"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:layout_marginRight="160dp"
+                    android:layout_marginRight="185dp"
                     android:layout_marginBottom="8dp"
                     android:text="12:44"
                     android:textColor="@color/white"
@@ -228,11 +220,33 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:layout_marginLeft="160dp"
+                    android:layout_marginLeft="163dp"
                     android:layout_marginBottom="8dp"
                     android:text="45:13"
                     android:textColor="@color/white"
                     android:textSize="11sp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="315dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="13dp"
+                    android:progress="50"
+                    android:progressBackgroundTint="#3A3A3C"
+                    android:progressTint="#EF3A01" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginBottom="11dp"
+                    app:srcCompat="@drawable/theendofprogressbar" />
+
             </FrameLayout>
 
             <TextView

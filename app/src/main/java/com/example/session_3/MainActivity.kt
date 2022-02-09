@@ -49,6 +49,5 @@ class MainActivity : AppCompatActivity() {
     fun click122(view: View) {        val intent = Intent(this, MainActivity_forYou::class.java)
         startActivity(intent)}
 
-    fun click333(view: View) {}
-    fun click222(view: View) {}
+
 }
